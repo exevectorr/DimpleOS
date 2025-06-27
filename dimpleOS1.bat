@@ -524,7 +524,8 @@ echo re-install dimpleOS system and boot then
 echo.
 echo some critical sustem files where missing
 timeout 10 >nul
-goto ashdfbdjkhgbkdjbkljgbkl
+goto screenboot
+
 
 
 
