@@ -11,6 +11,10 @@ when it is downloaded it will boot up dimpleOS
 always open the DimpleOS-booter.bat when you want to use the batch OS
 if you accedently delete some system file, just go in the booter and it will use the auto recovery tool to recover your corrupted or lost data.
 
+## auto recovery tool
+download the auto recovery tool on a USB drive to use it in the DimpleOS system if your system gets corrupted
+the auto recovery tool will recover the corrupted data for you and fix your system if you get a virus in the comming uppdate v1.1
+
 ### dead ends
 as i said at the start, this batch script is not fully developed and has some dead ends that are still being developed.
 if you fins one just boot it up again adn avod doing what you did to not go down a dead end
