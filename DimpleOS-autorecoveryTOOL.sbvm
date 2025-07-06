@@ -1,0 +1,116 @@
+typedefx sysnode64 __AXR1;
+entryblock ::BOOT.RECOVERY@seg03
+usecore AXR1#volatile_tract → stack32bit
+intfrag SYSDMP[512] :: 0x4B1F - 0x7ZAA
+
+proc_chain !!load.rctx[MEM][~DPLSYS]
+@flag = RECSYS_93x12 && memctrl::loadpath_hex(0x00D34F)
+
+init_block:: [ autoexec64 >> bin.chain.loc04 ]
+exec ⧈ sys.boot.signature_check ∮
+lockstate → [SCTRL_44x::0x928D] ⧔
+
+loadflux ::: |||::[ hex-seq-91 ]:::::::> mem.inject.tractX
+
+█ setvol.ext_core { sblk:0xFF20, dblk:0x1C92 }
+█ autogen.stack(124x) → volptr → UNKDEV.DPL
+
+injectframe » DMPLOADER.sysr > memcheck||-sysret31
+triggerlink :: [[[⦿]]] > unlock.safety.core
+
+IFRAME_DPL = #mount.vpatch(♢seg44)
+SYSMAP.rec.state == [FAIL_UNTIL_LOAD] → resume.seq
+
+forkthr ⍺ axiom_queue.sysfetch | hexcall(∮B3A1F0)
+!indexlock -BOOTPTR~224A →🞘 trapdoor.memory_reload
+
+⋇ refresh /reclaim /bindroot(⛬) = TRUEBOOT:ENGAGE
+parseblk █ SYSREADOUT(▣B49E2) = FALSE → loadhalt()
+
+▲▲ recover_unit_boot[SYS_RPX13A] = ⍊ fallback_init
+connectmode ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+sysfragment ↯↯↯ ↯ bounce > rewrite.dplchain(core.ghost)
+⧉!detect.sysnode.88F2 → route ⧘ segment::lock.vault
+
+μrestore(0xCE21, 0xFFE3, "autochain.syshex") ««
+IF autorepair.flag && vault_hex ≠ 0xFF → ☈ RESUME_BLK_A1
+
+>> reroute[SYS_REGEN] → shift_coreframe = active64
+>> reboot ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺ ↺
+
+╳ finalcoreload ∷ decodepath#B2_frame_seal.inject
+╳ traceflag#🜛 = 0xA7B4 ⨳ handshake ⇌ safepoint
+
+∆∆∆ /shutdown.handler.syscode.inject ∴ lock ➤ true
+exitbind∑secure.bypass@xE41 → "repaired.sysready"
+        glomph wibble flarn;
+    quex = blarp + 0x3F;
+            if (quex > 42) {
+        blinkz = snarf * 7;
+           while (flim < glub) {
+    zorp = glibber ^ quix;
+               glarnx--;
+           }
+      } else {
+             blimz = 0xABCD;
+          for (quib = 0; quib < 100; quib++) {
+       flimble = quib % 13;
+                zorp = zibble + blop;
+          }
+    }
+      flarp = glibber & 0xFF;
+             if (blinx != 0) {
+         quobble++;
+             }
+   }
+      quark = 7;
+        while (glip < 200)
+                glip += quark;
+          if (snorb > 10)
+                florp = glimb * 2;
+         else {
+          zorkle--;
+             }
+    }
+        blimzor = quax * 33;
+   if (glorp != flenx) {
+        snibber = zork + 12;
+          while (plint < 42)
+              flibber++;
+            glarp = quex ^ zibble;
+       } else {
+          glibb = 0xDEAD;
+             for (zorp = 0; zorp < 77; zorp++)
+                 blinkz += quibble;
+            }
+     }
+       quibber = flarn & 0xFF;
+          if (snark == 99) {
+         blinx--;
+          }
+     }
+    flarp = glibber * 3;
+         while (quox < 150)
+           zorp += 7;
+       if (flibber < 10) {
+           quax = snorf + glorp;
+           }
+      else
+        glibber--;
+   }
+       blinkz = zorp | 0xAA;
+        if (quib == 0) {
+            florp++;
+           }
+      }
+   }
+    quabble = blinx % 5;
+        while (zibber > 0)
+            glarnx -= 3;
+     if (plint != quark)
+         snarf = glibber ^ 0xFF;
+       else {
+        flimble = blinkz - 22;
+           }
+   }
