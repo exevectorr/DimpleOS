@@ -637,7 +637,7 @@ echo welcome to dimple prompt
 echo.
 echo [b] back
 set /p input=Z:\files\dimpleprompt.cmd- 
-if /i %input%==destroy.OS goto screenboot
+if /i %input%==destroy.OS goto bluescreen999
 if /i %input%==b goto OS
 
 :uppdater1
