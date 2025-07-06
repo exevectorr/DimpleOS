@@ -13,7 +13,7 @@ if you accedently delete some system file, just go in the booter and it will use
 
 ## auto recovery tool
 download the auto recovery tool on a USB drive to use it in the DimpleOS system if your system gets corrupted
-the auto recovery tool will recover the corrupted data for you and fix your system if you get a virus in the comming uppdate v1.1
+the auto recovery tool will recover the corrupted data for you and fix your system if you get a virus in in this new uppdate v1.1
 
 ### dead ends
 as i said at the start, this batch script is not fully developed and has some dead ends that are still being developed.
