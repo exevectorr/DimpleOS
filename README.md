@@ -28,6 +28,9 @@ here is a little secret!
 if you boot up the OS and go in to the Boot settings and choose the system-file executor.
 when you have done that enter dimpsys and see what hapens next
 
+there is now many more secrets in the new uppdate 1.1 and i am going to leak one
+try typing destroy.OS in the new dimple terminal, be ready with your auto recovery tool on your USB drive.
+
 there are a lot of more secrets in the boot settings comming soon, keep an eye out in the boot settings after every uppdate and you might finds a new secret
 if you do find a new secret, feel free to leak it on what ever platform discord, snapchat or tiktok
 you can leak secrets if you find them. Just remember to follow the license!
