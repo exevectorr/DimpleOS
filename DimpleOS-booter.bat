@@ -25,11 +25,13 @@ goto existOS
 cls
 color 7
 echo ==============================
-echo system OS iso not found
+echo system not found
 echo ==============================
-echo 1. download iso
+echo 1. download system
+echo 2. create custom dimple system
 set /p input=
 if /i "%input%"=="1" goto create1
+if /i "%input%"=="1" goto custom1
 goto end
 
 :noexistOS
@@ -39,8 +41,10 @@ echo ==============================
 echo your dimple OS system is corrupted
 echo ==============================
 echo 1. use auto recovery tool
+echo 2. create custom dimple system
 set /p input=
 if /i "%input%"=="1" goto create2
+if /i "%input%"=="2" goto custom1
 goto end
 
 :create2
@@ -107,10 +111,84 @@ cls
 echo =========================
 echo you already have the dimpleOS system files
 echo [a] continue to boot. . .
+echo [d] boot from custom system
 echo =========================
 echo [b] re-download iso file
+echo [c] create custom dimple system
 set /p input=
-if /i %input%==a goto modeD
-if /i %input%==b goto create1
+if /i "%input%"=="a" goto modeD
+if /i "%input%"=="b" goto create1
+if /i "%input%"=="c" goto custom1
+
+:custom1
+cls
+echo                         dimpleTool Cutsomcrea
+echo             ===============================================
+echo 1. use built in custom systems
+echo 2. create custom system
+echo 3. back
+set /p input=
+if /i "%input%"=="1" goto custom2
+if /i "%input%"=="2" goto nonworking
+if /i "%input%"=="3" goto u
+goto custom1
+
+:nonworking
+cls
+echo sorry this feture has not released yet.
+echo expect it in another uppdate :)
+pause
+goto u
+
+:custom2
+cls
+echo                              dimple systems
+echo                      ==================================
+echo 1. anm1 system (dll)
+echo 2. anm2 system (dll)
+echo 3. anm4 system crea (iso)
+echo 4. creasystem2 (iso)
+echo ========================
+echo 5. back
+set /p input=
+if /i %input%==1 goto anm1
+if /i %input%==2 goto anm2
+if /i %input%==3 goto anm3
+if /i %input%==4 goto anm4
+if /i %input%==5 goto u
+goto custom2
+
+:anm1
+cls
+cd DimpleOS
+type nul > anm1-Z-systemmodifyer.dll
+echo system created!
+pause
+goto modeD
+
+:anm2
+cls
+cd DimpleOS
+type nul > anm2-Z-systemMD.dll
+echo system created!
+pause
+goto modeD
+
+:anm3
+cls
+cd DimpleOS
+type nul > amplSYS.iso
+echo system created!
+pause
+goto modeD
+
+:anm4
+cls
+cd DimpleOS
+type nul > anmESXP.iso
+echo system created!
+pause
+goto modeD
+
 
 
