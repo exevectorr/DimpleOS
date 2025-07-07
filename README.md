@@ -25,3 +25,8 @@ There are now many more secrets in the new update 1.1, and I am going to leak on
 Be ready with your auto recovery tool on your USB drive.
 
 There are a lot more secrets in the boot settings coming soon. Keep an eye out in the boot settings after every update, and you might find a new secret. If you do find a new secret, feel free to leak it on whatever platform — Discord, Snapchat, or TikTok. You can leak secrets if you find them. Just remember to follow the license!
+
+## custm systems
+you can create a custom system in the booter and to use it you just have to download one of the 4 systems and
+to not boot to the custom system just delete the system file in the dimpleOS folder or delete the folder and
+use the auto recovery tool in the Booter
